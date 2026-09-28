@@ -1,0 +1,14 @@
+[project]
+name = "auto_assist"
+version = "1.0.0"
+authors = [{ name = "Light-milk-tea" }]
+description = "走近时自动捡起弹药、钱、增益饮料和托格代币，并自动打开能搜的箱子和柜子。两项可以在模组设置里分开开关。要花钱或铱星才能开的容器不打开。"
+
+[project.dependencies]
+willow2_mod_manager = ">=3.0"
+
+[tool.sdkmod]
+name = "自动拾取与开箱"
+license = {name = "MIT", url = "https://choosealicense.com/licenses/mit/"}
+supported_games = ["BL2"]
+coop_support = "ClientSide"
