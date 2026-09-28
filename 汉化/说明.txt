@@ -1,0 +1,20 @@
+把下面四个 `.sdkmod` 放进无主之地 2 的 `sdk_mods`。游戏要先完全退出。
+
+- `better_travel.sdkmod`：出生点与快速旅行
+- `part_notifier.sdkmod`：装备部件提示
+- `map_reloader.sdkmod`：地图重载
+- `vendor_edit.sdkmod`：装备编辑
+
+这四个都是新版 SDK 模组。如果游戏里还留着旧文件夹，先删掉，不然会和下面的新模组一起加载：
+
+- `sdk_mods\BSABT`
+- `sdk_mods\PythonPartNotifier`
+- `sdk_mods\Quickload`
+
+装好后在主菜单 MODS 里启用。默认快捷键：
+
+- 出生点与快速旅行：F2 打开快速旅行
+- 地图重载：F5 保存位置，F6 开关位置恢复，F7 重载不保存，F8 重载并保存
+- 装备编辑：F9 编辑，F10 复制代码，F11 粘贴代码
+
+这是新的模组，以前的按键设置不会自动带过来，但默认键和原来一样。装备部件提示的显示项也是默认勾选。

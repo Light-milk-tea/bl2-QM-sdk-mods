@@ -1,0 +1,14 @@
+[project]
+name = "part_notifier"
+version = "1.9.0"
+authors = [{ name = "apple1417" }, { name = "轻茗" }]
+description = "轻茗移植到新版 SDK。在物品卡上显示枪和装备用了哪些部件。别的模组改过的部件也会显示。打开这个模组的选项，可以选择显示哪些部位。"
+
+[project.dependencies]
+willow2_mod_manager = ">=3.0"
+
+[tool.sdkmod]
+name = "装备部件提示"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
+supported_games = ["BL2", "TPS", "AoDK"]
+coop_support = "ClientSide"

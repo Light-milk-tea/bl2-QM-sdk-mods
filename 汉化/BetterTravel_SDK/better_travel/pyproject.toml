@@ -1,0 +1,14 @@
+[project]
+name = "better_travel"
+version = "1.2.0"
+authors = [{ name = "Juso" }, { name = "轻茗" }]
+description = "轻茗移植到新版 SDK。重新进入游戏后，会在你上次触发的重生站出生。可以在任何地方打开快速旅行列表。要传到载具或快速旅行站旁边，在地图上给它附近放一个导航点，再把导航点删掉。"
+
+[project.dependencies]
+willow2_mod_manager = ">=3.0"
+
+[tool.sdkmod]
+name = "出生点与快速旅行"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
+supported_games = ["BL2", "TPS"]
+coop_support = "ClientSide"

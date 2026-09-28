@@ -1,0 +1,14 @@
+[project]
+name = "map_reloader"
+version = "1.1.0"
+authors = [{ name = "FromDarkHell" }, { name = "轻茗" }]
+description = "轻茗移植到新版 SDK。一键重载当前地图，用来反复刷取，也可以当作保存并退出。快捷键可以在这个模组的设置里改。位置恢复打开时，重载之后回到保存的位置。"
+
+[project.dependencies]
+willow2_mod_manager = ">=3.0"
+
+[tool.sdkmod]
+name = "地图重载"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
+supported_games = ["BL2", "TPS"]
+coop_support = "ClientSide"
