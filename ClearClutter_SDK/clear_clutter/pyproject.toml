@@ -1,0 +1,17 @@
+[project]
+name = "clear_clutter"
+version = "1.0.1"
+authors = [{ name = "Light-milk-tea" }]
+description = """
+按一次键清掉已经掉在地上的枪、装备、弹药和钱，以及死掉的敌人和毁坏的载具。
+不碰活着的角色、箱子和任务物品。默认按键是 F4，可在 MODS 里修改。
+"""
+
+[project.dependencies]
+willow2_mod_manager = ">=3.0"
+
+[tool.sdkmod]
+name = "清理地上杂物"
+license = {name = "MIT", url = "https://choosealicense.com/licenses/mit/"}
+supported_games = ["BL2"]
+coop_support = "ClientSide"
