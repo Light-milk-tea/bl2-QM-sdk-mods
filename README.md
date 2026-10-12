@@ -6,6 +6,8 @@
 
 注：自制/汉化的mod是我个人调试，尚未请其他玩家测试，如有问题欢迎提issue
 
+做这些模组时写的心得：[从0开始制作bdl2模组（move_speed）](https://rcnwh9dvzz4i.feishu.cn/wiki/AyPFwd6gMi4FYtkNtIjcXPu4n3g)
+
 ## 安装
 
 游戏需要已经装好 [Willow 2 Mod Manager](https://github.com/bl-sdk/willow2-mod-manager) 3.0 或更新版本。
@@ -16,6 +18,20 @@
 4. 在主菜单的 MODS 里启用。
 
 游戏正在运行时不要覆盖已经加载的 `.sdkmod`。
+
+## 效果
+
+主菜单底部进入 MODS。
+
+![主菜单中的 MODS](images/main-menu-mods.jpg)
+
+列表里可以开关每个模组。选中一项后，右侧显示作者、版本和说明。
+
+![模组列表](images/mod-list.jpg)
+
+进游戏后，暂停菜单里也能改当前模组的开关。下面是自动拾取与开箱。
+
+![游戏内的模组选项](images/ingame-options.jpg)
 
 ## 模组
 
@@ -30,7 +46,7 @@
 | 调整货币     | 1.0.2 | `SetCurrency_SDK`  | 把当前角色的金钱、铱矿、炽天使水晶和托格代币改成菜单里的数量。                      |
 
 
-`汉化` 文件夹里是移植到新版 SDK 并汉化过的模组，`.sdkmod` 直接放在这个文件夹里。如果游戏里还留着旧目录 `sdk_mods\BSABT`、`sdk_mods\PythonPartNotifier`、`sdk_mods\Quickload`，先删掉再装。
+`汉化` 文件夹里是移植到新版 SDK 或汉化过的模组，`.sdkmod` 直接放在这个文件夹里。如果游戏里还留着旧目录 `sdk_mods\BSABT`、`sdk_mods\PythonPartNotifier`、`sdk_mods\Quickload`，先删掉再装。已经装过英文版 `alt_use_vendors.sdkmod` 的，用这里的汉化包替换。
 
 
 | 菜单名      | 版本    | 文件                     | 作用                                                                                  |
@@ -39,5 +55,6 @@
 | 地图重载     | 1.1.0 | `map_reloader.sdkmod`  | 一键重载当前地图，用来反复刷取，也可以当作保存并退出。默认 F5 保存位置，F6 开关位置恢复，F7 重载不保存，F8 重载并保存。原作者 FromDarkHell。 |
 | 装备部件提示   | 1.9.0 | `part_notifier.sdkmod` | 在物品卡上显示枪和装备用了哪些部件。原作者 apple1417。                                                    |
 | 装备编辑     | 6     | `vendor_edit.sdkmod`   | 在游戏里用商店界面修改身上的装备。默认 F9 编辑，F10 复制代码，F11 粘贴代码。原作者 apple1417。                          |
+| 快捷贩卖机    | 4     | `alt_use_vendors.sdkmod` | 对准贩卖机按副使用键，一次补满弹药、补满生命或出售垃圾。默认 Q。原作者 apple1417。                                      |
 
 
