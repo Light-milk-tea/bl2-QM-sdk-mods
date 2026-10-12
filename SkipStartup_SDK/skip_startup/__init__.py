@@ -270,7 +270,7 @@ if ($enabled) {
 [IO.File]::WriteAllText($ui, ([string]::Join($uiNl, $keptUi)), $utf8)
 }
 Wait-Process -Id $GamePid -ErrorAction SilentlyContinue
-foreach ($n in 1..12) {
+foreach ($n in 1..40) {
     Start-Sleep -Milliseconds 500
     Apply-SkipStartupState
 }
@@ -295,7 +295,7 @@ def _ensure_watcher() -> None:
                 'Set shell = CreateObject("Wscript.Shell")',
                 "shell.Run \"powershell.exe -NoProfile -NonInteractive "
                 "-ExecutionPolicy Bypass -WindowStyle Hidden -File "
-                f'""{script_path}"" -GamePid {os.getpid()} -StatePath ""{STATE_PATH}"""", 0, True',
+                f'""{script_path}"" -GamePid {os.getpid()} -StatePath ""{STATE_PATH}""", 0, True',
                 "",
             )
         ),
