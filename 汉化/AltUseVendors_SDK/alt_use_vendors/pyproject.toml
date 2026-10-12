@@ -1,0 +1,14 @@
+[project]
+name = "alt_use_vendors"
+version = "4"
+authors = [{ name = "apple1417" }, { name = "轻茗" }]
+description = "轻茗汉化。对准贩卖机按副使用键，一键补弹药、补生命或出售垃圾。"
+
+[project.dependencies]
+willow2_mod_manager = ">=3.0"
+
+[tool.sdkmod]
+name = "快捷贩卖机"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
+supported_games = ["BL2", "TPS", "AoDK"]
+coop_support = "HostOnly"
